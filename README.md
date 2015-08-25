@@ -1,1 +1,1 @@
-# Jott.ly
+# Jottly-Landing-Page
