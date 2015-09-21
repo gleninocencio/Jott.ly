@@ -264,9 +264,16 @@ nav {
   }
 
   img.icon {
-    width: 175px;
+    width: 150px;
     margin-left: 25%;
   }
+
+  .white-shadow-box {
+  margin: -60px auto;
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
 
 }
 
@@ -276,7 +283,7 @@ nav {
 */
 
 .testimonial {
-  background: white url("../images/jessica.png") no-repeat center;
+  background: white url("../images/testimonial.jpg") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -284,7 +291,7 @@ nav {
   height: 800px; 
   background-position: 0 5%;
   margin-top: 25px;
-  max-height: 500px;
+  max-height: 650px;
 }
 
 .bq_jessica {
@@ -292,10 +299,10 @@ nav {
 }
 
 .jessica_quote {
-  color: #FFF;
+  color: #3d0b34;
   text-align: left;
   margin-left: 100px;
-  margin-top: 25%; 
+  margin-top: 35%; 
 }
 
 .jessica_title {
@@ -334,14 +341,14 @@ nav {
   }
 
   .testimonial {
-  background: white url("../images/jessica.png") no-repeat center;
+  background: white url("../images/testimonial.jpg") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   position: relative;
   position: relative;
-  height: 800px; 
-  background-position: 10% 5%;
+  height: 100%; 
+  background-position: 60% 5%;
   margin-top: 30px;
   max-height: 500px;
 }
@@ -383,7 +390,12 @@ nav {
 
 @media(max-width: 550px) {
   .call_action_btn {
-    margin-left: 150px;
+    margin-left: 110px;
+  }
+  .form-control {
+    width: 95%;
+
+   
   }
 }
 
